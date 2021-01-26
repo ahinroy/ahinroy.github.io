@@ -3107,6 +3107,24 @@
 
 		}
 
+
+/* page division - customized*/
+
+.column-a1 {
+	float: left;
+	width: 50%;
+  }
+  
+  
+
+  .column-a2 {
+	float: right;
+	width: 50%;
+  }
+  
+
+
+
 /* Footer */
 
 	#footer {
