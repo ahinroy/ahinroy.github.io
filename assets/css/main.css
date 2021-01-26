@@ -3117,9 +3117,27 @@
   
   
 
-  .column-a2 {
+.column-a2 {
 	float: right;
 	width: 50%;
+  }
+
+  .column-a3 {
+	float: left;
+	width: 25%;
+  }
+
+  .column-a4 {
+	float: right;
+	width: 75%;
+  }
+
+
+  /* image container*/
+
+  .image-container {
+	display: flex;
+	justify-content: center;
   }
   
 
