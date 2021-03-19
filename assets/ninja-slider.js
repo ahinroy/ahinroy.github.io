@@ -15,7 +15,7 @@ var nsOptions =
     navigateByTap: true,
     pauseOnHover: false,
     keyboardNav: true,
-    before: null,
+    before: null
 };
 
 var nslider = new NinjaSlider(nsOptions);
