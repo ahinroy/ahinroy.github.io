@@ -63,129 +63,130 @@
       <g
          id="g174">
         <g
-           id="g202">
-          <flowRoot
-             transform="matrix(0.26458333,0,0,0.26458333,0,164.70832)"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:FreeMono;-inkscape-font-specification:FreeMono;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;"
-             id="flowRoot45"
-             xml:space="preserve"><flowRegion
-               style="-inkscape-font-specification:FreeMono;font-family:FreeMono;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
-               id="flowRegion47"><rect
-                 style="-inkscape-font-specification:FreeMono;font-family:FreeMono;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
-                 y="-197.80354"
-                 x="475.71542"
-                 height="42.052193"
-                 width="202.37617"
-                 id="rect49" /></flowRegion><flowPara
-               id="flowPara51">Microscope</flowPara></flowRoot>          <rect
-             y="165.0564"
-             x="-0.15118706"
-             height="132.14029"
-             width="83.930954"
-             id="rect43"
-             style="fill:#333333;fill-rule:evenodd;stroke-width:0.26680309" />
-          <text
-             id="text55"
-             y="174.23244"
-             x="15.646373"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.87777778px;line-height:1.25;font-family:FreeMono;-inkscape-font-specification:FreeMono;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-             xml:space="preserve"><tspan
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.87777805px;font-family:Sawasdee;-inkscape-font-specification:Sawasdee;fill:#ffffff;stroke-width:0.26458332"
-               y="174.23244"
+           id="g231">
+          <g
+             id="g202">
+            <flowRoot
+               xml:space="preserve"
+               id="flowRoot45"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:FreeMono;-inkscape-font-specification:FreeMono;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;"
+               transform="matrix(0.26458333,0,0,0.26458333,0,164.70832)"><flowRegion
+                 id="flowRegion47"
+                 style="-inkscape-font-specification:FreeMono;font-family:FreeMono;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"><rect
+                   id="rect49"
+                   width="202.37617"
+                   height="42.052193"
+                   x="475.71542"
+                   y="-197.80354"
+                   style="-inkscape-font-specification:FreeMono;font-family:FreeMono;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal" /></flowRegion><flowPara
+                 id="flowPara51">Microscope</flowPara></flowRoot>            <rect
+               style="fill:#333333;fill-rule:evenodd;stroke-width:0.26680309"
+               id="rect43"
+               width="83.930954"
+               height="132.14029"
+               x="-0.15118706"
+               y="165.0564" />
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.87777778px;line-height:1.25;font-family:FreeMono;-inkscape-font-specification:FreeMono;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
                x="15.646373"
-               id="tspan53"
-               sodipodi:role="line"><tspan
-   style="-inkscape-font-specification:'Sawasdee Bold';font-family:Sawasdee;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal"
-   id="tspan146">Microscope</tspan>:</tspan></text>
-          <text
-             id="text55-8"
-             y="185.58517"
-             x="4.3694344"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666667px;line-height:1.25;font-family:FreeMono;-inkscape-font-specification:FreeMono;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-             xml:space="preserve"><tspan
-               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46666622px;font-family:Sawasdee;-inkscape-font-specification:'Sawasdee Bold';fill:#ffff00;stroke-width:0.26458332"
-               y="185.58517"
+               y="174.23244"
+               id="text55"><tspan
+                 sodipodi:role="line"
+                 id="tspan53"
+                 x="15.646373"
+                 y="174.23244"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.87777805px;font-family:Sawasdee;-inkscape-font-specification:Sawasdee;fill:#ffffff;stroke-width:0.26458332"><tspan
+   id="tspan146"
+   style="-inkscape-font-specification:'Sawasdee Bold';font-family:Sawasdee;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">Microscope</tspan>:</tspan></text>
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666667px;line-height:1.25;font-family:FreeMono;-inkscape-font-specification:FreeMono;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
                x="4.3694344"
-               id="tspan53-4"
-               sodipodi:role="line">Nion UltraSTEM-200</tspan></text>
-          <text
-             id="text55-5"
-             y="207.1868"
-             x="28.883915"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.17222222px;line-height:1.25;font-family:FreeMono;-inkscape-font-specification:FreeMono;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-             xml:space="preserve"><tspan
-               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Sawasdee;-inkscape-font-specification:'Sawasdee Bold';fill:#ffffff;stroke-width:0.26458332"
-               y="207.1868"
+               y="185.58517"
+               id="text55-8"><tspan
+                 sodipodi:role="line"
+                 id="tspan53-4"
+                 x="4.3694344"
+                 y="185.58517"
+                 style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46666622px;font-family:Sawasdee;-inkscape-font-specification:'Sawasdee Bold';fill:#ffff00;stroke-width:0.26458332">Nion UltraSTEM-200</tspan></text>
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.17222222px;line-height:1.25;font-family:FreeMono;-inkscape-font-specification:FreeMono;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
                x="28.883915"
-               id="tspan53-1"
-               sodipodi:role="line">Place:</tspan></text>
-          <text
-             id="text55-8-2"
-             y="215.59158"
-             x="3.2825031"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:FreeMono;-inkscape-font-specification:FreeMono;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-             xml:space="preserve"><tspan
-               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.3499999px;font-family:Sawasdee;-inkscape-font-specification:'Sawasdee Bold';fill:#ffff00;stroke-width:0.26458332"
-               y="215.59158"
+               y="207.1868"
+               id="text55-5"><tspan
+                 sodipodi:role="line"
+                 id="tspan53-1"
+                 x="28.883915"
+                 y="207.1868"
+                 style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Sawasdee;-inkscape-font-specification:'Sawasdee Bold';fill:#ffffff;stroke-width:0.26458332">Place:</tspan></text>
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:FreeMono;-inkscape-font-specification:FreeMono;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
                x="3.2825031"
-               id="tspan53-4-6"
-               sodipodi:role="line">AML, Trinity College Dublin</tspan></text>
-          <text
-             id="text55-5-0"
-             y="237.88052"
-             x="23.468348"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.17222222px;line-height:1.25;font-family:FreeMono;-inkscape-font-specification:FreeMono;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-             xml:space="preserve"><tspan
-               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Sawasdee;-inkscape-font-specification:'Sawasdee Bold';fill:#ffffff;stroke-width:0.26458332"
-               y="237.88052"
+               y="215.59158"
+               id="text55-8-2"><tspan
+                 sodipodi:role="line"
+                 id="tspan53-4-6"
+                 x="3.2825031"
+                 y="215.59158"
+                 style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.3499999px;font-family:Sawasdee;-inkscape-font-specification:'Sawasdee Bold';fill:#ffff00;stroke-width:0.26458332">AML, Trinity College Dublin</tspan></text>
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.17222222px;line-height:1.25;font-family:FreeMono;-inkscape-font-specification:FreeMono;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
                x="23.468348"
-               id="tspan53-1-0"
-               sodipodi:role="line">Material:</tspan></text>
-          <text
-             id="text55-8-2-9"
-             y="247.21138"
-             x="10.933915"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:FreeMono;-inkscape-font-specification:FreeMono;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-             xml:space="preserve"><tspan
-               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.3499999px;font-family:Sawasdee;-inkscape-font-specification:'Sawasdee Bold';fill:#ffff00;stroke-width:0.26458332"
-               y="247.21138"
+               y="237.88052"
+               id="text55-5-0"><tspan
+                 sodipodi:role="line"
+                 id="tspan53-1-0"
+                 x="23.468348"
+                 y="237.88052"
+                 style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Sawasdee;-inkscape-font-specification:'Sawasdee Bold';fill:#ffffff;stroke-width:0.26458332">Material:</tspan></text>
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:FreeMono;-inkscape-font-specification:FreeMono;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
                x="10.933915"
-               id="tspan53-4-6-3"
-               sodipodi:role="line">BaMn<tspan
-   id="tspan169"
-   style="font-size:64.99999762%;baseline-shift:sub;-inkscape-font-specification:'Sawasdee Bold';font-family:Sawasdee;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">x</tspan>Ti<tspan
-   id="tspan167"
-   style="font-size:64.99999762%;baseline-shift:sub;-inkscape-font-specification:'Sawasdee Bold';font-family:Sawasdee;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">1-x</tspan>O<tspan
-   id="tspan165"
-   style="font-size:64.99999762%;baseline-shift:sub;-inkscape-font-specification:'Sawasdee Bold';font-family:Sawasdee;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">3 </tspan>nanorods</tspan></text>
-          <text
-             id="text55-5-0-2"
-             y="267.21188"
-             x="26.131941"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.17222222px;line-height:1.25;font-family:FreeMono;-inkscape-font-specification:FreeMono;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-             xml:space="preserve"><tspan
-               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Sawasdee;-inkscape-font-specification:'Sawasdee Bold';fill:#ffffff;stroke-width:0.26458332"
-               y="267.21188"
+               y="247.21138"
+               id="text55-8-2-9"><tspan
+                 sodipodi:role="line"
+                 id="tspan53-4-6-3"
+                 x="10.933915"
+                 y="247.21138"
+                 style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.3499999px;font-family:Sawasdee;-inkscape-font-specification:'Sawasdee Bold';fill:#ffff00;stroke-width:0.26458332">BaMn<tspan
+   style="font-size:64.99999762%;baseline-shift:sub;-inkscape-font-specification:'Sawasdee Bold';font-family:Sawasdee;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal"
+   id="tspan169">x</tspan>Ti<tspan
+   style="font-size:64.99999762%;baseline-shift:sub;-inkscape-font-specification:'Sawasdee Bold';font-family:Sawasdee;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal"
+   id="tspan167">1-x</tspan>O<tspan
+   style="font-size:64.99999762%;baseline-shift:sub;-inkscape-font-specification:'Sawasdee Bold';font-family:Sawasdee;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal"
+   id="tspan165">3 </tspan>nanorods</tspan></text>
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.17222222px;line-height:1.25;font-family:FreeMono;-inkscape-font-specification:FreeMono;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
                x="26.131941"
-               id="tspan53-1-0-8"
-               sodipodi:role="line">Imaging: </tspan></text>
-          <text
-             id="text55-8-2-9-5"
-             y="278.36926"
-             x="23.78319"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.87777805px;line-height:1.25;font-family:FreeMono;-inkscape-font-specification:FreeMono;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-             xml:space="preserve"><tspan
-               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.3499999px;font-family:Sawasdee;-inkscape-font-specification:'Sawasdee Bold';fill:#ffff00;stroke-width:0.26458332"
-               y="278.36926"
+               y="267.21188"
+               id="text55-5-0-2"><tspan
+                 sodipodi:role="line"
+                 id="tspan53-1-0-8"
+                 x="26.131941"
+                 y="267.21188"
+                 style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Sawasdee;-inkscape-font-specification:'Sawasdee Bold';fill:#ffffff;stroke-width:0.26458332">Imaging: </tspan></text>
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.87777805px;line-height:1.25;font-family:FreeMono;-inkscape-font-specification:FreeMono;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
                x="23.78319"
-               id="tspan53-4-6-3-8"
-               sodipodi:role="line">200 keV,STEM</tspan></text>
-          <image
-             width="138.02243"
-             height="135.04782"
-             preserveAspectRatio="none"
-             style="image-rendering:optimizeQuality"
-             xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAArgAAAKpCAYAAABXSl8RAAAABHNCSVQICAgIfAhkiAAAIABJREFU
+               y="278.36926"
+               id="text55-8-2-9-5"><tspan
+                 sodipodi:role="line"
+                 id="tspan53-4-6-3-8"
+                 x="23.78319"
+                 y="278.36926"
+                 style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.3499999px;font-family:Sawasdee;-inkscape-font-specification:'Sawasdee Bold';fill:#ffff00;stroke-width:0.26458332">200 keV,STEM</tspan></text>
+            <image
+               y="162.93976"
+               x="80.589523"
+               id="image116"
+               xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAArgAAAKpCAYAAABXSl8RAAAABHNCSVQICAgIfAhkiAAAIABJREFU
 eJzsvWlsZMd1P/q7vS/sbu6cITnkaEYjyVK0xAYi70lsIPCX2LAB20AQwPGWD7Et6EsQIAms9/Ih
 QODYSSQnXxwbsJHYlgIEipUYCJwY1pbIcRzZ2kYzmo0zQ3KGZJPsZq/s5b4PfKfm14enLjke/R8e
 kD7AYJr31q0651TVqV+dOlUFDGlIQxrSkIY0pCENaUhDGtKQhjSkIQ1pSEMa0pCGNKQhDWlIQxrS
@@ -9161,9 +9162,11 @@ CXg583kbRxb8tJM23TC82XEGPoHv82DIyNqR5zxG4OmikGotx+mcOI7NmZ9xAl60M+L0HpeJ70Ua
 ADtRVoNHAH8DyjPfmxrGroxkfx8zP1eJwreXL0lUv6bUXbBruZZruZZruZZruZZruZY/snw15vx/
 PbsyIw7w7JAAAAAASUVORK5CYII=
 "
-             id="image116"
-             x="80.589523"
-             y="162.93976" />
+               style="image-rendering:optimizeQuality"
+               preserveAspectRatio="none"
+               height="135.04782"
+               width="138.02243" />
+          </g>
         </g>
       </g>
     </g>
