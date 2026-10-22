@@ -6,15 +6,265 @@
 -->
 <html>
 	<head>
-		<title>Meet the Team</title>
-		<title>Publications</title>
+		<title>Meet the Team | Microscopy, Computation and Chemistry</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="academicons-1.9.1/academicons-1.9.1/css/academicons.min.css" />
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
+		<style>
+			.team-member-list {
+				overflow: visible;
+				padding: 0.5em 0;
+			}
+
+			.team-member-list .flex.flex-2 {
+				flex-wrap: wrap;
+				width: 100%;
+				justify-content: flex-start;
+				column-gap: 1.25em;
+				row-gap: 1.5em;
+			}
+
+			.team-member-list .flex.flex-2 article {
+				width: calc(25% - 0.9375em);
+				flex: 0 0 calc(25% - 0.9375em);
+				box-sizing: border-box;
+				padding: 0.45em 0.55em 0.7em;
+				border: 1px solid rgba(196, 122, 60, 0.28);
+				border-radius: 12px;
+				background: rgba(255, 255, 255, 0.34);
+			}
+
+			.team-member-list .image img {
+				width: 150px !important;
+				height: 150px !important;
+				object-fit: cover;
+				margin: 0 auto;
+				border: 3px solid rgba(196, 122, 60, 0.55) !important;
+			}
+
+			.team-member-list article h3 {
+				font-size: 1.2em;
+				line-height: 1.35;
+				margin: 0.45em 0 0.25em;
+			}
+
+			.team-member-list article p {
+				font-size: 0.9em;
+				margin-bottom: 0.35em;
+			}
+
+			.team-member-list article p:first-of-type {
+				text-align: center;
+				font-size: 0;
+				line-height: 1.2;
+				white-space: nowrap;
+			}
+
+			.team-member-list article p:first-of-type a.ai-2x,
+			.team-member-list article p:first-of-type a.fa-2x {
+				font-size: 1.3rem !important;
+				margin: 0 0.24em;
+			}
+
+			.team-member-list article p:last-child {
+				text-align: center;
+				line-height: 1.35;
+			}
+
+			@media screen and (max-width: 1200px) {
+				.team-member-list .flex.flex-2 article {
+					width: calc(33.333% - 0.833em);
+					flex: 0 0 calc(33.333% - 0.833em);
+				}
+			}
+
+			@media screen and (max-width: 980px) {
+				.team-member-list .flex.flex-2 article {
+					width: calc(50% - 0.625em);
+					flex: 0 0 calc(50% - 0.625em);
+				}
+			}
+
+			@media screen and (max-width: 600px) {
+				.team-member-list {
+					padding: 0.75em;
+				}
+
+				.team-member-list .flex.flex-2 {
+					flex-wrap: wrap;
+					width: 100%;
+				}
+
+				.team-member-list .flex.flex-2 article {
+					width: 100%;
+					flex: 0 0 100%;
+				}
+			}
+
+			.team-page {
+				background: #fff;
+			}
+
+			.team-page #header {
+				box-shadow: 0 2px 14px rgba(0, 0, 0, 0.12);
+			}
+
+			.team-page #header .logo span,
+			.team-page .footer span {
+				color: rgb(30, 255, 0) !important;
+			}
+
+			.team-intro {
+				padding-top: 2.5em;
+				padding-bottom: 2.5em;
+				background: transparent;
+			}
+
+			.team-intro .inner {
+				max-width: 92%;
+			}
+
+			.team-intro h2,
+			.team-students-section h2,
+			.team-lead-section h2,
+			.team-mtech-section h2 {
+				letter-spacing: 0.04em;
+				margin-bottom: 0.7em;
+			}
+
+			.team-intro h2::after,
+			.team-students-section h2::after,
+			.team-lead-section h2::after,
+			.team-mtech-section h2::after {
+				content: "";
+				display: block;
+				width: 3.2em;
+				height: 3px;
+				margin: 0.45em auto 0;
+				background: #c47a3c;
+			}
+
+			.team-intro .img-cont {
+				display: block;
+				overflow: visible;
+				background: transparent;
+				border-radius: 0;
+				width: fit-content;
+				max-width: 100%;
+				margin: 0 auto;
+			}
+
+			.team-intro .img-cont img {
+				display: block;
+				width: auto !important;
+				max-width: 100%;
+				height: auto;
+				margin: 0 auto;
+				border-radius: 42px;
+			}
+
+			.team-intro .img-cont p {
+				margin: 0;
+				padding: 1em 1.5em 1.15em;
+				border-top: 3px solid #c47a3c;
+				background: #202a34;
+				color: rgba(255, 255, 255, 0.9) !important;
+				font-size: 0.9em;
+				line-height: 1.55;
+				text-align: center;
+			}
+
+			.team-intro .img-cont p::before {
+				display: none;
+			}
+
+			.team-intro .img-cont p span {
+				color: inherit !important;
+			}
+
+			.team-lead-section {
+				background: rgba(248, 250, 252, 0.9);
+			}
+
+			.team-lead-section .image.left {
+				max-width: 260px;
+				margin-right: 3em;
+				padding-right: 0;
+				text-align: center;
+			}
+
+			.team-lead-section .image.left img {
+				width: 100%;
+				border: 5px solid rgba(196, 122, 60, 0.42);
+				box-shadow: 0 0 0 4px rgba(81, 43, 43, 0.08);
+			}
+
+			.team-page a.button {
+				box-shadow: inset 0 0 0 3px #c47a3c;
+				color: #c47a3c !important;
+			}
+
+			.team-page a.button:hover,
+			.team-page a.button:active {
+				background-color: rgba(196, 122, 60, 0.16);
+			}
+
+			.team-lead-section .inner > p {
+				line-height: 1.7;
+				margin-right: 0 !important;
+			}
+
+			.team-students-section {
+				padding-top: 3em;
+				padding-bottom: 4em;
+			}
+
+			.team-mtech-section {
+				padding-top: 2em;
+				padding-bottom: 3em;
+				background: rgba(248, 250, 252, 0.9);
+			}
+
+			.team-mtech-section .flex.flex-2 {
+				justify-content: center;
+			}
+
+			.team-alumni-link {
+				padding: 1.5em 0 3em;
+				text-align: center;
+			}
+
+			.team-students-section > header {
+				margin-bottom: 1.5em;
+			}
+
+			@media screen and (max-width: 600px) {
+				.team-intro,
+				.team-students-section {
+					padding-top: 2em;
+					padding-bottom: 2.5em;
+				}
+
+				.team-intro .inner {
+					max-width: 95%;
+				}
+
+				.team-intro .img-cont {
+					width: 100%;
+				}
+
+
+				.team-lead-section .image.left {
+					float: none;
+					max-width: 210px;
+					margin: 0 auto 1.5em;
+				}
+			}
+		</style>
 	</head>
-	<body class="subpage">
+	<body class="subpage team-page">
 
 	
 				<!-- Header -->
@@ -37,7 +287,7 @@
 					<br>
 
 		<!-- Main -->
-		 <section id="three" class="wrapper">
+			 <section id="team-overview" class="wrapper team-intro">
 
 			<div class="inner">
 				<header class="align-center">
@@ -45,12 +295,12 @@
 				</header>
 
 				<span class="img-cont"> 
-					<img src="images/team/group_photo-bw-March-2025.jpg" style="width: 100%; height: auto; border: 0px solid black; margin: 0px 0px 0px 0px"/>
-					<p> <span style= "color: black">
+					<img src="images/team/group_photo-bw-March-2025.jpg" alt="Microscopy, Computation and Chemistry group at IIT Kharagpur" />
+					<p>
 					The group at IIT-Kharagpur Diamond Jubilee premises [near to the microscopes!], <i>circa</i> spring 2025. 
 					From left to right: Gyan, Suman, Anindita, Pijush, Dileshwari, Ajoy & Ahin. 
-					</span>
 					</p>
+				</span>
 			</div>
 
 
@@ -68,7 +318,7 @@
 
 
 
-		<section id="three" class="wrapper">
+		<section id="team-lead" class="wrapper team-lead-section">
 			<div class="inner">
 				<header class="align-center">
 
@@ -127,23 +377,25 @@
 
 
 
-			<section id="three" class="wrapper align-center">
+			<section id="phd-students" class="wrapper align-center team-students-section">
 				<header class="align-center">
-					<h2>Group members</h2>
+					<h2>PhD students</h2>
+				</header>
 				<div class="inner">
+					<div class="team-member-list">
 					<div class="flex flex-2">
 
 
 			<article>
 				<div class="image round">
-					<img src="images/team/AS.jpg" width="auto" height="300" style="text-align: left; border: 1px solid #000;" alt="member-1" />
+					<img src="images/team/AS.jpg" alt="Anindita Sarkar" />
 				</div>
 				<header>
-					<h3>Anindita Sarkar<br /> Ph. D Student</h3>
+					<h3>Anindita Sarkar</h3>
 				</header>
 				<p>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-					<a href="https://scholar.google.com/XXXXXXXXXXXXX" style="position:relative; z-index:1000; color:rgb(51, 2, 2); text-decoration:none"  class="ai ai-google-scholar-square ai-2x"></a> &nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="https://scholar.google.com/citations?hl=en&user=WOP1z0oAAAAJ" style="position:relative; z-index:1000; color:rgb(51, 2, 2); text-decoration:none"  class="ai ai-google-scholar-square ai-2x"></a> &nbsp;&nbsp;&nbsp;&nbsp;
 					<a href="https://www.researchgate.net/" style="position:relative; z-index:1000; color:rgb(51, 2, 2); text-decoration:none" class="ai ai-researchgate ai-2x"></a> &nbsp;&nbsp;&nbsp;&nbsp;
 					<a href="https://orcid.org/xxxxxxxxxxxxxxxxx" style="position:relative; z-index:1000; color:rgb(51, 2, 2); text-decoration:none" class="ai ai-orcid ai-2x"></a>  &nbsp;&nbsp;&nbsp;&nbsp;
 					<a href="mailto:sarkaranindita20@gmail.com" style="position:relative; z-index:1000; color: rgb(51, 2, 2); text-decoration:none" class="fa fa-envelope fa-2x"></a>
@@ -155,14 +407,14 @@
 
 			<article>
 				<div class="image round">
-					<img src="images/team/PS.jpg" width="auto" height="300" style="text-align: left; border: 1px solid #000;" alt="member-1" />
+					<img src="images/team/PS.jpg" alt="Pijush Sardar" />
 				</div>
 				<header>
-					<h3>Pijush Sardar<br /> Ph. D student</h3>
+					<h3>Pijush Sardar</h3>
 				</header>
 				<p>
 					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-					<a href="https://scholar.google.com/XXXXXXXXXXXXX" style="position:relative; z-index:1000; color:rgb(51, 2, 2); text-decoration:none"  class="ai ai-google-scholar-square ai-2x"></a> &nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="https://scholar.google.com/citations?hl=en&user=QEYEutQAAAAJ&view_op=list_works&sortby=pubdate" style="position:relative; z-index:1000; color:rgb(51, 2, 2); text-decoration:none"  class="ai ai-google-scholar-square ai-2x"></a> &nbsp;&nbsp;&nbsp;&nbsp;
 					<a href="https://www.researchgate.net/" style="position:relative; z-index:1000; color:rgb(51, 2, 2); text-decoration:none" class="ai ai-researchgate ai-2x"></a> &nbsp;&nbsp;&nbsp;&nbsp;
 					<a href="https://orcid.org/0000-0002-4444-5015" style="position:relative; z-index:1000; color:rgb(51, 2, 2); text-decoration:none" class="ai ai-orcid ai-2x"></a>  &nbsp;&nbsp;&nbsp;&nbsp;
 					<a href="mailto:pijush.sardar1999@gmail.com" style="position:relative; z-index:1000; color: rgb(51, 2, 2); text-decoration:none" class="fa fa-envelope fa-2x"></a>
@@ -173,10 +425,10 @@
 
 			<article>
 				<div class="image round">
-					<img src="images/team/AD.jpg" width="auto" height="300" style="text-align: left; border: 1px solid #000;" alt="member-1" />
+					<img src="images/team/AD.jpg" alt="Ajoy Dinda" />
 				</div>
 				<header>
-					<h3>Ajoy Dinda<br /> Ph. D Student</h3>
+					<h3>Ajoy Dinda</h3>
 				</header>
 				<p>
 					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -193,14 +445,14 @@
 
 			<article>
 				<div class="image round">
-					<img src="images/team/cartoon-use.png" width="auto" height="300" style="text-align: left; border: 1px solid #000;" alt="member-1" />
+					<img src="images/team/cartoon-use.png" alt="Annapurna Pal" />
 				</div>
 				<header>
-					<h3>Annapurna Pal<br /> Ph. D Student</h3>
+					<h3>Annapurna Pal</h3>
 				</header>
 				<p>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-					<a href="https://scholar.google.com/XXXXXXXXXXXXX" style="position:relative; z-index:1000; color:rgb(51, 2, 2); text-decoration:none"  class="ai ai-google-scholar-square ai-2x"></a> &nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="https://scholar.google.com/XXXXXXXXXXXXX" style="position:relative; z-index:1000; color:rgb(51, 2, 2); text-decoration:none"  class="ai ai-google-scholar-square ai-2x"></a> &nbsp;&nbsp;&nbsp;&nbsp;
 					<a href="https://www.researchgate.net/" style="position:relative; z-index:1000; color:rgb(51, 2, 2); text-decoration:none" class="ai ai-researchgate ai-2x"></a> &nbsp;&nbsp;&nbsp;&nbsp;
 					<a href="https://orcid.org/xxxxxxxxxxxxxxxxx" style="position:relative; z-index:1000; color:rgb(51, 2, 2); text-decoration:none" class="ai ai-orcid ai-2x"></a>  &nbsp;&nbsp;&nbsp;&nbsp;
 					<a href="mailto:annapurnapal1999@gmail.com" style="position:relative; z-index:1000; color: rgb(51, 2, 2); text-decoration:none" class="fa fa-envelope fa-2x"></a>
@@ -208,14 +460,12 @@
 			</article>
 
 
-
-
 			<article>
 				<div class="image round">
-					<img src="images/team/DS.jpg" width="auto" height="300" style="text-align: left; border: 1px solid #000;" alt="member-1" />
+					<img src="images/team/DS.jpg" alt="Dileshwari Sahu" />
 				</div>
 				<header>
-					<h3>Dileshwari Sahu<br /> Ph. D Student</h3>
+					<h3>Dileshwari Sahu</h3>
 				</header>
 				<p>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -232,26 +482,104 @@
 
 			<article>
 				<div class="image round">
-					<img src="images/team/SG.jpg" width="auto" height="300" style="text-align: left; border: 1px solid #000;" alt="member-1" />
+					<img src="images/team/SG.jpg" alt="Suman Ghanta" />
 				</div>
 				<header>
-					<h3>Suman Ghanta<br /> JRF (Project)</h3>
+					<h3>Suman Ghanta</h3>
 				</header>
 				<p>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-					<a href="https://scholar.google.com/XXXXXXXXXXXXX" style="position:relative; z-index:1000; color:rgb(51, 2, 2); text-decoration:none"  class="ai ai-google-scholar-square ai-2x"></a> &nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="https://scholar.google.com/citations?user=nWhu7kAAAAAJ&hl=en&oi=ao" style="position:relative; z-index:1000; color:rgb(51, 2, 2); text-decoration:none"  class="ai ai-google-scholar-square ai-2x"></a> &nbsp;&nbsp;&nbsp;&nbsp;
 					<a href="https://www.researchgate.net/" style="position:relative; z-index:1000; color:rgb(51, 2, 2); text-decoration:none" class="ai ai-researchgate ai-2x"></a> &nbsp;&nbsp;&nbsp;&nbsp;
 					<a href="https://orcid.org/xxxxxxxxxxxxxxxxx" style="position:relative; z-index:1000; color:rgb(51, 2, 2); text-decoration:none" class="ai ai-orcid ai-2x"></a>  &nbsp;&nbsp;&nbsp;&nbsp;
 					<a href="mailto:grsahoo1999@kgpian.iitkgp.ac.in" style="position:relative; z-index:1000; color: rgb(51, 2, 2); text-decoration:none" class="fa fa-envelope fa-2x"></a>
 					</p>
 			</article>		
 
+
+			<article>
+				<div class="image round">
+					<img src="images/team/manisha.png" width="auto" height="300" style="text-align: left; border: 1px solid #000;" alt="Manisha Dutta" />
+				</div>
+				<header>
+					<h3>Manisha Dutta</h3>
+				</header>
+				<p>
+					<a href="https://scholar.google.com/citations?user=cQzsRkcAAAAJ&hl=en&oi=ao" style="position:relative; z-index:1000; color:rgb(51, 2, 2); text-decoration:none" class="ai ai-google-scholar-square ai-2x"></a>
+					<a href="xxx" style="position:relative; z-index:1000; color:rgb(51, 2, 2); text-decoration:none" class="ai ai-researchgate ai-2x"></a>
+					<a href="xxx" style="position:relative; z-index:1000; color:rgb(51, 2, 2); text-decoration:none" class="ai ai-orcid ai-2x"></a>
+					<a href="mailto:xxx" style="position:relative; z-index:1000; color:rgb(51, 2, 2); text-decoration:none" class="fa fa-envelope fa-2x"></a>
+				</p>
+			</article>
+
 											
 
 			</div>
 			</div>
+			</div>
+			</section>
 
-										<a href="zzz_Alumni.html" class="button" style="align-self:center; color: black;"> Alumni </a>
+			<section id="mtech-students" class="wrapper align-center team-mtech-section">
+				<header class="align-center">
+					<h2>M. Tech students</h2>
+				</header>
+				<div class="inner">
+					<div class="team-member-list">
+						<div class="flex flex-2">
+
+							<article>
+								<div class="image round">
+									<img src="images/team/Kunal.jpeg" width="auto" height="300" style="text-align: left; border: 1px solid #000;" alt="Kunal Debnath" />
+								</div>
+								<header>
+									<h3>Kunal Debnath</h3>
+								</header>
+								<p>
+									<a href="xxx" style="position:relative; z-index:1000; color:rgb(51, 2, 2); text-decoration:none" class="ai ai-google-scholar-square ai-2x"></a>
+									<a href="xxx" style="position:relative; z-index:1000; color:rgb(51, 2, 2); text-decoration:none" class="ai ai-researchgate ai-2x"></a>
+									<a href="xxx" style="position:relative; z-index:1000; color:rgb(51, 2, 2); text-decoration:none" class="ai ai-orcid ai-2x"></a>
+									<a href="mailto:xxx" style="position:relative; z-index:1000; color:rgb(51, 2, 2); text-decoration:none" class="fa fa-envelope fa-2x"></a>
+								</p>
+							</article>
+
+							<article>
+								<div class="image round">
+									<img src="images/team/kapil.jpg" width="auto" height="300" style="text-align: left; border: 1px solid #000;" alt="Kapil Yadav" />
+								</div>
+								<header>
+									<h3>Kapil Yadav</h3>
+								</header>
+								<p>
+									<a href="xxx" style="position:relative; z-index:1000; color:rgb(51, 2, 2); text-decoration:none" class="ai ai-google-scholar-square ai-2x"></a>
+									<a href="xxx" style="position:relative; z-index:1000; color:rgb(51, 2, 2); text-decoration:none" class="ai ai-researchgate ai-2x"></a>
+									<a href="xxx" style="position:relative; z-index:1000; color:rgb(51, 2, 2); text-decoration:none" class="ai ai-orcid ai-2x"></a>
+									<a href="mailto:xxx" style="position:relative; z-index:1000; color:rgb(51, 2, 2); text-decoration:none" class="fa fa-envelope fa-2x"></a>
+								</p>
+							</article>
+
+							<article>
+								<div class="image round">
+									<img src="images/team/rishi.jpeg" width="auto" height="300" style="text-align: left; border: 1px solid #000;" alt="Rishikripa Das" />
+								</div>
+								<header>
+									<h3>Rishikripa Das</h3>
+								</header>
+								<p>
+									<a href="xxx" style="position:relative; z-index:1000; color:rgb(51, 2, 2); text-decoration:none" class="ai ai-google-scholar-square ai-2x"></a>
+									<a href="xxx" style="position:relative; z-index:1000; color:rgb(51, 2, 2); text-decoration:none" class="ai ai-researchgate ai-2x"></a>
+									<a href="xxx" style="position:relative; z-index:1000; color:rgb(51, 2, 2); text-decoration:none" class="ai ai-orcid ai-2x"></a>
+									<a href="mailto:xxx" style="position:relative; z-index:1000; color:rgb(51, 2, 2); text-decoration:none" class="fa fa-envelope fa-2x"></a>
+								</p>
+							</article>
+
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<div class="team-alumni-link">
+				<a href="zzz_Alumni.html" class="button">Alumni</a>
+			</div>
 
 
 
@@ -272,7 +600,7 @@
 			  text-align: center;
 			}
 			</style>
-			
+			<footer>
 			<div class="footer">
 				<div class="inner">
 				  <p><span style="color:rgb(30, 255, 0)">Web Design <span>&#169;</span></span> Ahin Roy</p>

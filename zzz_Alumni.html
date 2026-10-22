@@ -6,15 +6,146 @@
 -->
 <html>
 	<head>
-		<title>Meet the Team</title>
-		<title>Publications</title>
+		<title>Alumni | Microscopy, Computation and Chemistry</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="academicons-1.9.1/academicons-1.9.1/css/academicons.min.css" />
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
+		<style>
+			.alumni-page {
+				background: #eef2f5;
+			}
+
+			.alumni-page #header {
+				box-shadow: 0 2px 14px rgba(0, 0, 0, 0.12);
+			}
+
+			.alumni-page #header .logo span,
+			.alumni-page .footer span {
+				color: rgb(30, 255, 0) !important;
+			}
+
+			.alumni-page > .wrapper {
+				padding-top: 2.5em;
+				padding-bottom: 4em;
+			}
+
+			.alumni-page h2 {
+				letter-spacing: 0.04em;
+				margin-bottom: 1.2em;
+			}
+
+			.alumni-page h2::after {
+				content: "";
+				display: block;
+				width: 3.2em;
+				height: 3px;
+				margin: 0.45em auto 0;
+				background: #c47a3c;
+			}
+
+			.alumni-grid {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: flex-start;
+				column-gap: 1.25em;
+				row-gap: 1.5em;
+			}
+
+			.alumni-grid article {
+				width: calc(25% - 0.9375em);
+				flex: 0 0 calc(25% - 0.9375em);
+				box-sizing: border-box;
+				padding: 0.45em 0.55em 0.8em;
+				border: 1px solid rgba(196, 122, 60, 0.28);
+				border-radius: 12px;
+				background: rgba(255, 255, 255, 0.34);
+			}
+
+			.alumni-grid .image img {
+				width: 150px !important;
+				height: 150px !important;
+				object-fit: cover;
+				margin: 0 auto;
+				border: 3px solid rgba(196, 122, 60, 0.55) !important;
+			}
+
+			.alumni-grid article h3 {
+				font-size: 1.15em;
+				line-height: 1.35;
+				margin: 0.45em 0 0.65em;
+				color: #4d5963;
+			}
+
+			.alumni-grid .alumni-role {
+				margin: -0.35em 0 0.8em;
+				color: #788590;
+				font-size: 0.78em;
+				letter-spacing: 0.08em;
+				text-transform: uppercase;
+			}
+
+			.alumni-grid .thesis-title {
+				margin: 0;
+				padding: 0.75em 0.8em;
+				border-left: 4px solid #c47a3c;
+				background: rgba(255, 255, 255, 0.72);
+				color: #27313a;
+				font-size: 0.82em;
+				line-height: 1.5;
+				text-align: left;
+			}
+
+			.alumni-grid .thesis-label {
+				display: block;
+				margin-bottom: 0.25em;
+				color: #c47a3c;
+				font-size: 0.85em;
+				font-weight: 700;
+				letter-spacing: 0.12em;
+				text-transform: uppercase;
+			}
+
+			.alumni-grid .thesis-name {
+				font-weight: 600;
+			}
+
+			.alumni-grid .thesis-date {
+				display: block;
+				margin-top: 0.35em;
+				color: #697680;
+				font-size: 0.9em;
+				font-style: italic;
+			}
+
+			@media screen and (max-width: 1200px) {
+				.alumni-grid article {
+					width: calc(33.333% - 0.833em);
+					flex: 0 0 calc(33.333% - 0.833em);
+				}
+			}
+
+			@media screen and (max-width: 980px) {
+				.alumni-grid article {
+					width: calc(50% - 0.625em);
+					flex: 0 0 calc(50% - 0.625em);
+				}
+			}
+
+			@media screen and (max-width: 600px) {
+				.alumni-page > .wrapper {
+					padding-top: 2em;
+				}
+
+				.alumni-grid article {
+					width: 100%;
+					flex: 0 0 100%;
+				}
+			}
+		</style>
 	</head>
-	<body class="subpage">
+	<body class="subpage alumni-page">
 
 	
 				<!-- Header -->
@@ -42,30 +173,33 @@
 
 
 
-			<section id="three" class="wrapper align-center">
+			<section id="alumni" class="wrapper align-center">
 				<header class="align-center">
 					<h2>Alumni</h2>
+				</header>
 				<div class="inner">
-					<div class="flex flex-2">
+					<div class="alumni-grid">
 
 			<article>
 				<div class="image round">
-					<img src="images/team/AS.jpg" width="auto" height="300" style="text-align: left; border: 1px solid #000;" alt="member-1" />
+					<img src="images/team/AS.jpg" alt="Anindita Sarkar" />
 				</div>
 				<header>
-					<h3>Anindita Sarkar<br/> M. Tech from our group</h3>
-					<p>Thesis: Inter-phase Interface Driven catalytic Activity in Tungsten Oxide (WO<sub>3</sub>) (May-2024)</p>
+					<h3>Anindita Sarkar</h3>
+					<p class="alumni-role">M. Tech - Our group</p>
+					<p class="thesis-title"><span class="thesis-label">Thesis</span><span class="thesis-name">Inter-phase Interface Driven Catalytic Activity in Tungsten Oxide (WO<sub>3</sub>)</span><span class="thesis-date">May-2024</span></p>
 				</header>
 			</article>
 
 
 			<article>
 				<div class="image round">
-					<img src="images/team/cartoon-use.png" width="auto" height="300" style="text-align: left; border: 1px solid #000;" alt="member-1" />
+					<img src="images/team/cartoon-use.png" alt="Arghyadeep Nag" />
 				</div>
 				<header>
-					<h3>Arghyadeep Nag<br/> M. Tech (with Prof. Chacko Jacob)</h3>
-					<p> Thesis: Design and fabrication of an RT-CVD reactor for CNT growth (May-2024)</p>
+					<h3>Arghyadeep Nag</h3>
+					<p class="alumni-role">M. Tech - Jointly with Prof. C. Jacob</p>
+					<p class="thesis-title"><span class="thesis-label">Thesis</span><span class="thesis-name">Design and Fabrication of an RT-CVD Reactor for CNT Growth</span><span class="thesis-date">May-2024</span></p>
 				</header>
 
 			</article>
@@ -75,11 +209,12 @@
 
 			<article>
 				<div class="image round">
-					<img src="images/team/GRS.jpg" width="auto" height="300" style="text-align: left; border: 1px solid #000;" alt="member-1" />
+					<img src="images/team/GRS.jpg" alt="Gyan Ranjan Sahoo" />
 				</div>
 				<header>
-					<h3>Gyan Ranjan Sahoo<br /> M. Tech from our group</h3>
-					<p>Thesis: Nanostructured Cobalt Telluride as an Efficient Electrocatalyst for Oxygen Evolution Recation (May-2025)</p>
+					<h3>Gyan Ranjan Sahoo</h3>
+					<p class="alumni-role">M. Tech - Our group</p>
+					<p class="thesis-title"><span class="thesis-label">Thesis</span><span class="thesis-name">Nanostructured Cobalt Telluride as an Efficient Electrocatalyst for Oxygen Evolution Reaction</span><span class="thesis-date">May-2025</span></p>
 				</header>
 			</article>
 
@@ -88,11 +223,12 @@
 
 			<article>
 				<div class="image round">
-					<img src="images/team/cartoon-use.png" width="auto" height="300" style="text-align: left; border: 1px solid #000;" alt="member-1" />
+					<img src="images/team/cartoon-use.png" alt="Satyam Kumar Upadhyay" />
 				</div>
 				<header>
-					<h3>Satyam Kumar Upadhyay<br/> M. Tech (with Prof. Vidya Kochat)</h3>
-					<p>Thesis: Investigation of Direct Growth of 2D TMDs on Graphene for Large Area 2D Heterostructures (May-2025)</p>
+					<h3>Satyam Kumar Upadhyay</h3>
+					<p class="alumni-role">M. Tech - Jointly with Prof. V. Kochat</p>
+					<p class="thesis-title"><span class="thesis-label">Thesis</span><span class="thesis-name">Investigation of Direct Growth of 2D TMDs on Graphene for Large Area 2D Heterostructures</span><span class="thesis-date">May-2025</span></p>
 				</header>
 			</article>
 
@@ -101,8 +237,9 @@
 			
 
 
+					</div>
 				</div>
-			</div>
+			</section>
 
 
 
@@ -125,7 +262,7 @@
 			  text-align: center;
 			}
 			</style>
-			
+			<footer>
 			<div class="footer">
 				<div class="inner">
 				  <p><span style="color:rgb(30, 255, 0)">Web Design <span>&#169;</span></span> Ahin Roy</p>
