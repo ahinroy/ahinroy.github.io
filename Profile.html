@@ -10,8 +10,113 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<style>
+			.profile-page {
+				background: #fff;
+			}
+
+			.profile-page .profile-title {
+				margin: 2.5em 0 1.5em;
+			}
+
+			.profile-page .profile-layout {
+				display: flex;
+				align-items: flex-start;
+				gap: 3em;
+				max-width: 75em;
+				margin: 0 auto;
+				padding: 0 2em 4em;
+			}
+
+			.profile-page .profile-sidebar {
+				flex: 0 0 25%;
+				float: none;
+				width: auto;
+			}
+
+			.profile-page .profile-content {
+				flex: 1 1 auto;
+				min-width: 0;
+				float: none;
+				width: auto;
+			}
+
+			.profile-page .profile-photo {
+				display: block;
+				width: min(100%, 240px);
+				height: auto;
+				margin: 0 auto;
+				border: 2px solid #000;
+			}
+
+			.profile-page .profile-caption {
+				margin-top: 1em;
+				text-align: center;
+				color: #000;
+				font-size: 15px;
+				line-height: 1.5;
+			}
+
+			.profile-page .profile-links {
+				margin-top: 1.5em;
+				text-align: center;
+			}
+
+			.profile-page .profile-links a {
+				display: inline-block;
+				margin: 0.25em;
+				color: #000 !important;
+			}
+
+			.profile-page .profile-section {
+				margin: 0 0 1.5em;
+			}
+
+			.profile-page .profile-section h3 {
+				margin-bottom: 0.45em;
+			}
+
+			.profile-page .footer {
+				position: static;
+				height: auto;
+				padding: 0.75em 1em;
+				box-sizing: border-box;
+				background: #000;
+				color: #fff;
+				text-align: center;
+			}
+
+			.profile-page .footer p {
+				margin: 0;
+			}
+
+			@media screen and (max-width: 736px) {
+				.profile-page .profile-title {
+					margin: 2em 0 1em;
+					font-size: 2em;
+				}
+
+				.profile-page .profile-layout {
+					display: block;
+					padding: 0 1.25em 3em;
+				}
+
+				.profile-page .profile-sidebar,
+				.profile-page .profile-content {
+					width: 100%;
+				}
+
+				.profile-page .profile-sidebar {
+					margin-bottom: 2em;
+				}
+
+				.profile-page .profile-photo {
+					width: min(100%, 220px);
+				}
+			}
+		</style>
 	</head>
-	<body class="subpage">
+	<body class="subpage profile-page">
 
 	
 				<!-- Header -->
@@ -39,44 +144,43 @@
 
 
 
-		<h2 id="profile" class="align-center">Academic Profile</h2>
+		<h2 id="profile" class="align-center profile-title">Academic Profile</h2>
 
-		<div class="row" style="align-content:center">
+		<div class="profile-layout">
 			<!--div class="5u 12u$(small)"-->
-			<div class="column-a3">
+			<div class="profile-sidebar">
 				<figure  class="item">
 					<div class="image-container">
-					<img src="images/team/ahin.png"  style="width: 50%; height: 50%; border: 2px solid black; "/>
+					<img class="profile-photo" src="images/team/ahin.png" alt="Ahin Roy" />
 					</div>
-					<figcaption class="caption" style= "text-align: center; color: black; font-size:15px;"> Ahin Roy <br>Assistant Professor, <br>Materials Science Centre, IIT-KGP</figcaption>
+					<figcaption class="profile-caption">Ahin Roy<br>Assistant Professor,<br>Materials Science Centre, IIT-KGP</figcaption>
 				</figure>
-				<br>
 
-				<div class="image-container">
-				<p style= "text-align: center;"> Ahin's <a href="images/team/cv-one-page.pdf" style="color:black; text-decoration:none">one-page CV</a>  <br> 
-					and <a href="images/team/cv_2024.pdf" style="color:black; text-decoration:none">detailed CV</a> can be found here</p> 
+				<div class="profile-links">
+					Ahin's <a href="images/team/cv-one-page.pdf">one-page CV</a><br>
+					and <a href="images/team/cv_2024.pdf">detailed CV</a>
 				</div>
 			</div>
 			
-			<div class="7u$ 12u$(small)">
+			<div class="profile-content">
 			<!--div class="column"-->
-				<p>
-					<h3><u>Experience</u></h3> 
+				<section class="profile-section">
+					<h3><u>Experience</u></h3>
 					<span style= "color: blue">Jan-2022 to present:</span> Assistant Professor, Materials Science Centre, IIT-Kharagpur, India <br>
 					<span style= "color: blue">Aug-2019 to Oct-2021:</span> Research Fellow, Trinity College Dublin, Ireland <br>
 					<span style= "color: blue">Nov-2017 to July-2019:</span> Visiting Scientist, IISc Bangalore, India <br>
 					<span style= "color: blue">Sep-2015 to Sep-2017:</span> JSPS Postdoctoral Fellow, Kyushu Unversity, Japan<br>
-				</p>
+				</section>
 
-				<p>
-					<h3><u>Education</u></h3> 
+				<section class="profile-section">
+					<h3><u>Education</u></h3>
 					<span style= "color: blue">2011-2015:</span> Ph. D in Materials Science (Integrated PhD, IISc Bangalore, India)<br>
 					<span style= "color: blue">2009-2011:</span> M.S in Chemical Sciences (Integrated PhD, IISc Bangalore, India) <br>
 					<span style= "color: blue">2006-2009:</span> B. Sc. (Hons.) in Chemistry, RKMRC Narendrapur University of Calcutta<br>
-				</p>
+				</section>
 
-				<p>
-					<h3><u>Awards</u></h3> 
+				<section class="profile-section">
+					<h3><u>Awards</u></h3>
 					<span style= "color: blue">2017:</span> Best poster prize, Electron Microscope Society of India<br>
 					<span style= "color: blue">2015:</span> JSPS Postdoctoral Fellowship, JSPS, MEXT, Japan <br>
 					<span style= "color: blue">2015:</span> Young Scientist Award (in Physics), K. V. Rao Scientific Society, India<br>
@@ -84,21 +188,21 @@
 					<span style= "color: blue">2012:</span> Unilever-RSC Science Communication fellowship, Imperial Cllege London<br>
 					<span style= "color: blue">2009:</span> Integrated Ph. D Research Fellowship, IISc Bangalore, India<br>
 					<span style= "color: blue">2002:</span> Certificate of Distinction, International Australian mathematics Olympiad, Australian Maths Trust<br>
-				</p>
+				</section>
 
-				<p>
-					<h3><u>Outreach Experience</u></h3> 
+				<section class="profile-section">
+					<h3><u>Outreach Experience</u></h3>
 					<span style= "color: blue">2017:</span> <span style= "color: black">Microscopy at the Ultimate Limit: 
 					‘See’-ing the Atoms in Materials</span>: Invited talk at Meizen High School, Kurume, Fukuoka, Japan (JSPS Science Dialogue Program)					
-				</p>
+				</section>
 
-				<p>
-					<h3><u>Community Service</u></h3> 
+				<section class="profile-section">
+					<h3><u>Community Service</u></h3>
 					<span style= "color: blue">Reviewer:</span> <span style= "color: black">Journal of Materials Science,  
 					ACS Sustainable Chemistry & Engineering, NPJ 2D Materials and Applications</span>
 					<br>
 					<span style= "color: blue">Topic Editor:</span> <span style= "color: black">MDPI Materials</span>
-				</p>
+				</section>
 
 			</div>
 		
@@ -112,26 +216,11 @@
 
 
 		<!-- Footer -->
-
-		<style>
-			.footer {
-			  position: fixed;
-			  left: 0;
-			  bottom: 0;
-			  height: 1.5rem;
-			  width: 100%;
-			  background-color: black;
-			  color: white;
-			  text-align: center;
-			}
-			</style>
-			
-			<div class="footer">
+		<footer class="footer">
 				<div class="inner">
 				  <p><span style="color:rgb(30, 255, 0)">Web Design <span>&#169;</span></span> Ahin Roy</p>
 				</div>  
-			</div> 
-			</footer>	
+		</footer>
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
