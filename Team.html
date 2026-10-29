@@ -213,7 +213,7 @@
 
 			.team-lead-section .profile-more {
 				display: inline-flex;
-				width: auto;
+				width: auto !important;
 				align-items: center;
 				justify-content: center;
 				line-height: 1;
@@ -277,9 +277,25 @@
 
 				.team-lead-section .image.left {
 					float: none;
+					display: flex;
+					flex-direction: column;
+					align-items: center;
 					max-width: 210px;
 					margin: 0 auto 1.5em;
 					padding: 0;
+				}
+
+				.team-lead-section .profile-links {
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					gap: 0.25em;
+					width: 100%;
+				}
+
+				.team-lead-section .profile-more {
+					align-self: center;
+					margin-top: 0.9em;
 				}
 
 				.team-lead-section .inner > p {
