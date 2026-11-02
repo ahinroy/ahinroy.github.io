@@ -185,6 +185,18 @@
 				grid-column: 1 / -1;
 			}
 
+			.research-page .research-results-roll {
+				grid-column: 1 / -1;
+				margin: 0.25rem 0 0.2rem;
+			}
+
+			.research-page .research-older-cards {
+				display: grid;
+				grid-template-columns: repeat(3, minmax(0, 1fr));
+				gap: 1.2rem;
+				margin-top: 1.2rem;
+			}
+
 			.research-page .research-card {
 				display: flex;
 				flex-direction: column;
@@ -300,6 +312,10 @@
 				.research-page .research-results {
 					grid-template-columns: repeat(2, minmax(0, 1fr));
 				}
+
+				.research-page .research-older-cards {
+					grid-template-columns: repeat(2, minmax(0, 1fr));
+				}
 			}
 
 			@media screen and (max-width: 736px) {
@@ -331,11 +347,17 @@
 					gap: 1rem;
 				}
 
+				.research-page .research-older-cards {
+					grid-template-columns: 1fr;
+					gap: 1rem;
+				}
+
 				.research-page .research-card img {
 					height: auto !important;
 					max-height: 260px;
 				}
 			}
+
 		</style>
 	</head>
 	<body class="subpage research-page">
@@ -629,6 +651,24 @@
 						node.remove();
 					}
 				});
+
+				var cards = results.querySelectorAll('.research-card');
+				if (cards.length >= 6) {
+					var notice = document.createElement('details');
+					notice.className = 'research-intro-roll research-results-roll';
+					notice.setAttribute('role', 'note');
+					notice.setAttribute('aria-label', 'Notice about the age of these research results');
+					var summary = document.createElement('summary');
+					summary.textContent = 'A bit older results!';
+					notice.appendChild(summary);
+					var olderCards = document.createElement('div');
+					olderCards.className = 'research-older-cards';
+					for (var i = 6; i < cards.length; i++) {
+						olderCards.appendChild(cards[i]);
+					}
+					notice.appendChild(olderCards);
+					cards[5].after(notice);
+				}
 			});
 		</script>
 				
